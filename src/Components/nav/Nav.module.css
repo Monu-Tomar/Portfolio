@@ -1,0 +1,72 @@
+.Nav_wrapper{
+    min-height: 100vh; width: 120px;
+    background-color: var(--bg-color); display: flex;
+    flex-direction: column; justify-content: space-between;
+    align-items: center; padding: 30px 0; position: fixed; top: 0; left: 0;
+}
+
+.Nav_wrapper ul{
+    display: flex; flex-direction: row-reverse; gap: 15px; transform: rotate(270deg);
+}
+
+.Nav_wrapper ul li a{
+    color: var(--text-color);
+    font-weight: 500;
+    transition: .5s;
+    &:hover{color: var(--prime-color);}
+}
+
+.logo a{
+    padding: 15px 17px; font-size: 20px; font-weight: 600;
+    background-color: var(--prime-color);
+    color: var(--logo-color); border-radius: 10px;
+}
+
+.nav_btns{
+    display: flex; flex-direction: column; gap: 20px;
+}
+
+.nav_btns li{
+    border-radius: 50%; font-size: 20px; cursor: pointer; transition: .5s; 
+    background-color: var(--prime-color); padding: 15px 16px;
+    &:hover{
+        box-shadow: 0 5px 10px rgba(0,0, 0, 0.3);
+        color: #fff;
+    }
+}
+
+.nav_btns li:nth-of-type(2){
+    display: none;
+}
+
+/* ---------------responsive--------------- */
+
+@media screen and (max-width:900px) {
+    .nav_btns li:nth-of-type(2){
+        display: flex;
+    }
+    .nav_btns{flex-direction: row;}
+    .Nav_wrapper{
+        min-height: auto; height: 80px; width: 100%; flex-direction: row; z-index: 99;
+        padding: 0 12px; position: fixed; top: 0; border-bottom: 0.5px solid var(--prime-color);
+    }
+    .Nav_wrapper ul{
+        transform: rotate(0); flex-direction: column; position: absolute; top: 101%; left: -100%;
+        width: 100%; background-color: var(--bg-color); transition: .6s; z-index: 99;
+    }
+    .Nav_wrapper .showMenu{left: 0;}
+    .Nav_wrapper ul li{
+        display: block; margin: 10px 0; padding-left: 10%;          /* padding: 10px 0; */
+    }
+    .logo a{
+        padding: 7px 11px; 
+    }
+    .nav_btns li{padding: 10px 11px;}
+}
+
+@media screen and (max-width:500px) {
+    .logo a{padding: 7px 11px;}
+    .nav_btns li{padding: 10px 11px;}
+    .Nav_wrapper{height: 65 px;}
+}
+
