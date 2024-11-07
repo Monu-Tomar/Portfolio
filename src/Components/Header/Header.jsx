@@ -1,6 +1,6 @@
 import { ReactTyped } from 'react-typed';
 import headerCSS from "./../Header/Header.module.css";
-import Resume from './../../Assets/MonuTomar-Resume.pdf'
+import Resume from './../../Assets/Monu-tomar-Resume.pdf';
 
 const Header = () => {
     return (
@@ -24,7 +24,7 @@ const Header = () => {
                     <a href="tel:9870700751" target='blank'><i className='ri-phone-line'></i></a>
                     <a href="//wa.me/9870700751 " target='blank'><i className='ri-whatsapp-line'></i></a>
                 </div>
-                <button><a href={Resume}>Download CV <i className='ri-download-line'></i></a></button>
+                <button><a href={Resume} target='blank'>Download CV <i className='ri-download-line'></i></a></button>
             </div>
         </>
     );

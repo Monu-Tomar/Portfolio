@@ -18,11 +18,3 @@ const App=()=>{
   );
 }
 export default App;
-
-
-
-// Projects 1) Psd - Mirachi 
-// 2) Weather App
-// 3) Calculator
-// 4) Kitchen kingdom
-// 5) Image search app 
