@@ -64,7 +64,7 @@ const Project=()=>{
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
-                        <h4>Kitchen Kingdom<span>Mordern App Design , Breakfast Ordering Page , Redux , Reactjs, Javascript </span></h4>
+                        <h4>Kitchen Kingdom<span>Mordern App Design , Breakfast Ordering Page , Redux ,react-toastify , Reactjs, Javascript </span></h4>
                         <a href="https://kitchen-kingdom.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
@@ -75,7 +75,7 @@ const Project=()=>{
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
-                        <h4>Note Keeper<span>Simple app design , Daily notes keeper application , Api , Mock Api , Reactjs , Javascript </span></h4>
+                        <h4>Note Keeper<span>Simple app design , Daily notes keeper application , react-toastify , Api , Mock Api , Reactjs , Javascript </span></h4>
                         <a href="https://note-keeper-taupe.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
