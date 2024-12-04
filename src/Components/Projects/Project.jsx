@@ -64,19 +64,19 @@ const Project=()=>{
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
-                        <h4>Kitchen Kingdom<span>Mordern App Design , Breakfast Ordering Page , Redux , Reactjs , Javascript </span></h4>
+                        <h4>Kitchen Kingdom<span>Mordern App Design , Breakfast Ordering Page , Redux , Reactjs, Javascript </span></h4>
                         <a href="https://kitchen-kingdom.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
                 <div className={projectCSS.project_card}>
-                    <a href="https://kitchen-kingdom.vercel.app/" target='blank'>
+                    <a href="https://note-keeper-taupe.vercel.app/" target='blank'>
                         <div className={projectCSS.projectImg}>
                             <img src={projectimg6} alt="Project_img" loading='lazy' />
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
                         <h4>Note Keeper<span>Simple app design , Daily notes keeper application , Api , Mock Api , Reactjs , Javascript </span></h4>
-                        <a href="https://kitchen-kingdom.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                        <a href="https://note-keeper-taupe.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
             </div>
