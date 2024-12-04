@@ -4,6 +4,7 @@ import projectimg2 from './../../Assets/project2.png';
 import projectimg3 from './../../Assets/project3.png';
 import projectimg4 from './../../Assets/project4.png';
 import projectimg5 from './../../Assets/project5.png';
+import projectimg6 from './../../Assets/note-keeper.png';
 
 const Project=()=>{
     return(
@@ -64,6 +65,17 @@ const Project=()=>{
                     </a>
                     <div className={projectCSS.project_content}>
                         <h4>Kitchen Kingdom<span>Mordern App Design , Breakfast Ordering Page , Redux , Reactjs , Javascript </span></h4>
+                        <a href="https://kitchen-kingdom.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                    </div>
+                </div>
+                <div className={projectCSS.project_card}>
+                    <a href="https://kitchen-kingdom.vercel.app/" target='blank'>
+                        <div className={projectCSS.projectImg}>
+                            <img src={projectimg6} alt="Project_img" loading='lazy' />
+                        </div>
+                    </a>
+                    <div className={projectCSS.project_content}>
+                        <h4>Note Keeper<span>Simple app design , Daily notes keeper application , Api , Mock Api , Reactjs , Javascript </span></h4>
                         <a href="https://kitchen-kingdom.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
