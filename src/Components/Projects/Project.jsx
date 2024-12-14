@@ -7,8 +7,8 @@ import projectimg5 from './../../Assets/project5.png';
 import projectimg6 from './../../Assets/project6.png';
 import projectimg7 from './../../Assets/project7.png';
 
-const Project=()=>{
-    return(
+const Project = () => {
+    return (
         <div className={`${projectCSS.project_wrapper} section`} id='project'>
             <div className="section_title">
                 <h2>My Projects</h2>
@@ -33,7 +33,7 @@ const Project=()=>{
                     </a>
                     <div className={projectCSS.project_content}>
                         <h4>Weather Web App <span>Application Design , HTML , CSS, Javascript, API </span></h4>
-                       <a href="https://monu-tomar.github.io/weather-api/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                        <a href="https://monu-tomar.github.io/weather-api/" target='blank'><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
                 <div className={projectCSS.project_card}>
@@ -46,7 +46,7 @@ const Project=()=>{
                         <h4>Calculator web App<span>Calculator Page , HTML , CSS  , Javascript </span></h4>
                         <a href="https://monu-tomar.github.io/Calculator/" target='blank'><i className='ri-arrow-right-line'></i></a>
                     </div>
-                </div>                
+                </div>
                 <div className={projectCSS.project_card}>
                     <a href="https://image-application.netlify.app/" target='blank'>
                         <div className={projectCSS.projectImg}>
@@ -87,7 +87,8 @@ const Project=()=>{
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
-                        <h4>Note Keeper<span>Simple app design , Daily notes keeper application , react-toastify , Api , Mock Api , Reactjs , Javascript </span></h4>
+                        <h4>Clothify<span>Simple app design , E-commerce , Cloth website , Multiple page design , Reactjs , Javascript </span>
+                        </h4>
                         <a href="https://clothify-kappa.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
