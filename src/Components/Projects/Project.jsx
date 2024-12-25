@@ -6,6 +6,7 @@ import projectimg4 from './../../Assets/project4.png';
 import projectimg5 from './../../Assets/project5.png';
 import projectimg6 from './../../Assets/project6.png';
 import projectimg7 from './../../Assets/project7.png';
+import projectimg8 from './../../Assets/project8.png';
 
 const Project = () => {
     return (
@@ -90,6 +91,18 @@ const Project = () => {
                         <h4>Clothify<span>Simple app design , E-commerce , Cloth website , Multiple page design , Reactjs , Javascript </span>
                         </h4>
                         <a href="https://clothify-kappa.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                    </div>
+                </div>
+                <div className={projectCSS.project_card}>
+                    <a href="https://monu-ecommerce.vercel.app/" target='blank'>
+                        <div className={projectCSS.projectImg}>
+                            <img src={projectimg8} alt="Project_img" loading='lazy' />
+                        </div>
+                    </a>
+                    <div className={projectCSS.project_content}>
+                        <h4>Clothify<span>Simple app design , E-commerce , mordern website , Multiple page design , Reactjs , Javascript, Redux js , Reduc-toolkit </span>
+                        </h4>
+                        <a href="https://monu-ecommerce.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
             </div>

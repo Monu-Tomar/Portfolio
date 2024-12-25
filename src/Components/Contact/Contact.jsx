@@ -49,11 +49,11 @@ const Contact=()=>{
                 <div className={contactCSS.contactForm}>
                         <form onSubmit={onSubmit}>
                             <div className={contactCSS.input_wrapper}  >
-                                <input type="text" placeholder="Enter Name" name="name" />
-                                <input type="email" placeholder="Enter Email" name="email" />
+                                <input type="text" placeholder="Enter Name" name="name" required/>
+                                <input type="email" placeholder="Enter Email" name="email" required/>
                             </div>
-                            <input type="text" placeholder="Subject" name="subject" />
-                            <textarea placeholder="Message" name="massage"></textarea>
+                            <input type="text" placeholder="Subject" name="subject" required/>
+                            <textarea placeholder="Message" name="massage" required></textarea>
                             <button type="submit">Submit</button>
                         </form>
                 </div>
