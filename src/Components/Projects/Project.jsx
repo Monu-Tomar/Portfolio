@@ -100,7 +100,7 @@ const Project = () => {
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
-                        <h4>Tech Haven<span>Simple app design , E-commerce , mordern website , Multiple page design , Reactjs , Javascript, Redux js , Reduc-toolkit </span>
+                        <h4>Tech Haven<span>Simple app design , E-commerce , mordern website , Multiple page design , Reactjs , Javascript, Redux js , Redux-toolkit </span>
                         </h4>
                         <a href="https://monu-ecommerce.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
                     </div>

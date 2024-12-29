@@ -1,6 +1,6 @@
 import { ReactTyped } from 'react-typed';
 import headerCSS from "./../Header/Header.module.css";
-import Resume from './../../Assets/Monu-tomar-Resume.pdf';
+import Resume from './../../Assets/Monu-Tomar.pdf';
 
 const Header = () => {
     return (
