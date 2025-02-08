@@ -4,16 +4,16 @@ import Header from "./Components/Header/Header";
 import Nav from "./Components/nav/Nav";
 import Project from "./Components/Projects/Project";
 
-const App=()=>{
-  return(
+const App = () => {
+  return (
     <>
-    <div className="Header_wrapper">
-      <Nav />
-      <Header />
-    </div>
-    <About />
-    <Project />
-    <Contact />
+      <div className="Header_wrapper">
+        <Nav />
+        <Header />
+      </div>
+      <About />
+      <Project />
+      <Contact />
     </>
   );
 }

@@ -16,73 +16,73 @@ const Project = () => {
             </div>
             <div className={projectCSS.project_cards}>
                 <div className={projectCSS.project_card}>
-                    <a href="https://monu-tomar.github.io/Recipe-App/" target='blank'>
+                    <a href="https://monu-tomar.github.io/Recipe-App/" >
                         <div className={projectCSS.projectImg}>
                             <img src={projectimg1} alt="Project_img" loading='lazy' />
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
                         <h4>PSD to HTML <span>PSD Design , HTML , CSS , Javascript</span></h4>
-                        <a href="https://monu-tomar.github.io/Recipe-App/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                        <a href="https://monu-tomar.github.io/Recipe-App/"><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
                 <div className={projectCSS.project_card}>
-                    <a href="https://monu-tomar.github.io/weather-api/" target='blank'>
+                    <a href="https://monu-tomar.github.io/weather-api/" >
                         <div className={projectCSS.projectImg}>
                             <img src={projectimg2} alt="Project_img" loading='lazy' />
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
                         <h4>Weather Web App <span>Application Design , HTML , CSS, Javascript, API </span></h4>
-                        <a href="https://monu-tomar.github.io/weather-api/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                        <a href="https://monu-tomar.github.io/weather-api/" ><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
                 <div className={projectCSS.project_card}>
-                    <a href="https://monu-tomar.github.io/Calculator/" target='blank'>
+                    <a href="https://monu-tomar.github.io/Calculator/" >
                         <div className={projectCSS.projectImg}>
                             <img src={projectimg3} alt="Project_img" loading='lazy' />
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
                         <h4>Calculator web App<span>Calculator Page , HTML , CSS  , Javascript </span></h4>
-                        <a href="https://monu-tomar.github.io/Calculator/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                        <a href="https://monu-tomar.github.io/Calculator/" ><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
                 <div className={projectCSS.project_card}>
-                    <a href="https://image-application.netlify.app/" target='blank'>
+                    <a href="https://image-application.netlify.app/" >
                         <div className={projectCSS.projectImg}>
                             <img src={projectimg4} alt="Project_img" loading='lazy' />
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
                         <h4>Image Search App <span>Photograph , API , Reactjs , Javascript </span></h4>
-                        <a href="https://image-application.netlify.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                        <a href="https://image-application.netlify.app/" ><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
                 <div className={projectCSS.project_card}>
-                    <a href="https://kitchen-kingdom.vercel.app/" target='blank'>
+                    <a href="https://kitchen-kingdom.vercel.app/" >
                         <div className={projectCSS.projectImg}>
                             <img src={projectimg5} alt="Project_img" loading='lazy' />
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
                         <h4>Kitchen Kingdom<span>Mordern App Design , Breakfast Ordering Page , Redux ,react-toastify , Reactjs, Javascript </span></h4>
-                        <a href="https://kitchen-kingdom.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                        <a href="https://kitchen-kingdom.vercel.app/" ><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
                 <div className={projectCSS.project_card}>
-                    <a href="https://note-keeper-taupe.vercel.app/" target='blank'>
+                    <a href="https://note-keeper-taupe.vercel.app/" >
                         <div className={projectCSS.projectImg}>
                             <img src={projectimg6} alt="Project_img" loading='lazy' />
                         </div>
                     </a>
                     <div className={projectCSS.project_content}>
                         <h4>Note Keeper<span>Simple app design , Daily notes keeper application , react-toastify , Api , Mock Api , Reactjs , Javascript </span></h4>
-                        <a href="https://note-keeper-taupe.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                        <a href="https://note-keeper-taupe.vercel.app/" ><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
                 <div className={projectCSS.project_card}>
-                    <a href="https://clothify-kappa.vercel.app/" target='blank'>
+                    <a href="https://clothify-kappa.vercel.app/" >
                         <div className={projectCSS.projectImg}>
                             <img src={projectimg7} alt="Project_img" loading='lazy' />
                         </div>
@@ -90,11 +90,11 @@ const Project = () => {
                     <div className={projectCSS.project_content}>
                         <h4>Clothify<span>Simple app design , E-commerce , Cloth website , Multiple page design , Reactjs , Javascript </span>
                         </h4>
-                        <a href="https://clothify-kappa.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                        <a href="https://clothify-kappa.vercel.app/" ><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
                 <div className={projectCSS.project_card}>
-                    <a href="https://monu-ecommerce.vercel.app/" target='blank'>
+                    <a href="https://monu-ecommerce.vercel.app/" >
                         <div className={projectCSS.projectImg}>
                             <img src={projectimg8} alt="Project_img" loading='lazy' />
                         </div>
@@ -102,7 +102,7 @@ const Project = () => {
                     <div className={projectCSS.project_content}>
                         <h4>Tech Haven<span>Simple app design , E-commerce , mordern website , Multiple page design , Reactjs , Javascript, Redux js , Redux-toolkit </span>
                         </h4>
-                        <a href="https://monu-ecommerce.vercel.app/" target='blank'><i className='ri-arrow-right-line'></i></a>
+                        <a href="https://monu-ecommerce.vercel.app/" ><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
             </div>

@@ -12,7 +12,7 @@ const About = () => {
                     <img src={aboutimg} alt="img-about" loading='lazy' />
                 </div>
                 <div className={aboutCSS.about_content}>
-                    <h3>Hello I M Monu Tomar</h3>    
+                    <h3>Hello I M Monu Tomar</h3>
                     <p>I'm dedicated to building responsive, visually impressive websites and web apps using clean, efficient code and modern technologies like React and JavaScript.</p>
                     <div className={aboutCSS.details}>
                         <div className={aboutCSS.detail}>
@@ -23,12 +23,12 @@ const About = () => {
                         <div className={aboutCSS.detail}>
                             <p><strong>Github : </strong><a href="https://github.com/Monu-Tomar">Monu-Tomar</a></p>
                             <p><strong>Linkedin : </strong><a href="https://www.linkedin.com/in/monu-tomar-bb6432249/">Monu Tomar</a></p>
-                        </div>                           
+                        </div>
                     </div>
                     {/* <button>More About <i className='ri-user-line'></i></button> */}
-                </div>                                       
+                </div>
             </div>
-            
+
         </div>
     );
 }

@@ -9,7 +9,7 @@ const Header = () => {
                 <small>Hello,👋 There </small>
                 <h2> I M
                     <span>
-                        <ReactTyped 
+                        <ReactTyped
                             strings={[" Monu Tomar", " React Developer", " Frontend Developer"]}
                             typeSpeed={60}
                             backSpeed={60}
