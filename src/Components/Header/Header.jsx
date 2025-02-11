@@ -24,7 +24,7 @@ const Header = () => {
                     <a href="tel:9870700751"><i className='ri-phone-line'></i></a>
                     <a href="//wa.me/9870700751 "><i className='ri-whatsapp-line'></i></a>
                 </div>
-                <button><a href={Resume} target='blank'>Download CV <i className='ri-download-line'></i></a></button>
+                <button><a href={Resume}>Download CV <i className='ri-download-line'></i></a></button>
             </div>
         </>
     );
