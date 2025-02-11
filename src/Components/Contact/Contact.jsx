@@ -1,11 +1,13 @@
 import contactCSS from "./../Contact/Contact.module.css";
 import logo from './../../Assets/New-logo.jpg';
+import { useState } from "react";
 
 const Contact = () => {
-
+    const [result, setResult] = useState("");
 
     const onSubmit = async (event) => {
         event.preventDefault();
+        setResult("sending....")
         const formData = new FormData(event.target);
 
         formData.append("access_key", "a32f89f5-bc27-4022-b494-26885bf5e292");
@@ -24,6 +26,11 @@ const Contact = () => {
 
         if (res.success) {
             console.log("Success", res);
+            setResult("Form Submitted Successfully");
+            event.target.reset();
+        } else {
+            console.log("Error (use proper mail id)", res);
+            setResult(res.message);
         }
     };
 
@@ -55,6 +62,7 @@ const Contact = () => {
                         <input type="text" placeholder="Subject" name="subject" required />
                         <textarea placeholder="Message" name="massage" required></textarea>
                         <button type="submit">Submit</button>
+                        <span>{result}</span>
                     </form>
                 </div>
             </div>
