@@ -7,6 +7,7 @@ import projectimg5 from './../../Assets/project5.png';
 import projectimg6 from './../../Assets/project6.png';
 import projectimg7 from './../../Assets/project7.png';
 import projectimg8 from './../../Assets/project8.png';
+import projectimg9 from './../../Assets/project-9.png';
 
 const Project = () => {
     return (
@@ -103,6 +104,18 @@ const Project = () => {
                         <h4>Tech Haven<span>Simple app design , E-commerce , mordern website , Multiple page design , Reactjs , Javascript, Redux js , Redux-toolkit </span>
                         </h4>
                         <a href="https://monu-ecommerce.vercel.app/" ><i className='ri-arrow-right-line'></i></a>
+                    </div>
+                </div>
+                <div className={projectCSS.project_card}>
+                    <a href="https://monu-tomar.github.io/rack-storage" >
+                        <div className={projectCSS.projectImg}>
+                            <img src={projectimg9} alt="Project_img" loading='lazy' />
+                        </div>
+                    </a>
+                    <div className={projectCSS.project_content}>
+                        <h4>Jasiva Rack Storage<span>Simple app design , mordern website , Rack Storage , Heavy Duty Racks, Light Duty Racks , Multiple page design , Javascript, CSS , HTML </span>
+                        </h4>
+                        <a href="https://monu-tomar.github.io/rack-storage" ><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
             </div>
