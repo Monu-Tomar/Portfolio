@@ -17,6 +17,42 @@ const Project = () => {
             </div>
             <div className={projectCSS.project_cards}>
                 <div className={projectCSS.project_card}>
+                    <a href="https://monu-ecommerce.vercel.app/" >
+                        <div className={projectCSS.projectImg}>
+                            <img src={projectimg8} alt="Project_img" loading='lazy' />
+                        </div>
+                    </a>
+                    <div className={projectCSS.project_content}>
+                        <h4>Tech Haven<span>Simple app design , E-commerce , mordern website , Multiple page design , Reactjs , Javascript, Redux js , Redux-toolkit </span>
+                        </h4>
+                        <a href="https://monu-ecommerce.vercel.app/" ><i className='ri-arrow-right-line'></i></a>
+                    </div>
+                </div>
+                <div className={projectCSS.project_card}>
+                    <a href="https://monu-tomar.github.io/rack-storage" >
+                        <div className={projectCSS.projectImg}>
+                            <img src={projectimg9} alt="Project_img" loading='lazy' />
+                        </div>
+                    </a>
+                    <div className={projectCSS.project_content}>
+                        <h4>Jasiva Rack Storage<span>Simple app design , mordern website , Rack Storage , Heavy Duty Racks, Light Duty Racks , Multiple page design , Javascript, CSS , HTML </span>
+                        </h4>
+                        <a href="https://monu-tomar.github.io/rack-storage" ><i className='ri-arrow-right-line'></i></a>
+                    </div>
+                </div>
+                <div className={projectCSS.project_card}>
+                    <a href="https://clothify-kappa.vercel.app/" >
+                        <div className={projectCSS.projectImg}>
+                            <img src={projectimg7} alt="Project_img" loading='lazy' />
+                        </div>
+                    </a>
+                    <div className={projectCSS.project_content}>
+                        <h4>Clothify<span>Simple app design , E-commerce , Cloth website , Multiple page design , Reactjs , Javascript </span>
+                        </h4>
+                        <a href="https://clothify-kappa.vercel.app/" ><i className='ri-arrow-right-line'></i></a>
+                    </div>
+                </div>
+                <div className={projectCSS.project_card}>
                     <a href="https://monu-tomar.github.io/Recipe-App/" >
                         <div className={projectCSS.projectImg}>
                             <img src={projectimg1} alt="Project_img" loading='lazy' />
@@ -80,42 +116,6 @@ const Project = () => {
                     <div className={projectCSS.project_content}>
                         <h4>Note Keeper<span>Simple app design , Daily notes keeper application , react-toastify , Api , Mock Api , Reactjs , Javascript </span></h4>
                         <a href="https://note-keeper-taupe.vercel.app/" ><i className='ri-arrow-right-line'></i></a>
-                    </div>
-                </div>
-                <div className={projectCSS.project_card}>
-                    <a href="https://clothify-kappa.vercel.app/" >
-                        <div className={projectCSS.projectImg}>
-                            <img src={projectimg7} alt="Project_img" loading='lazy' />
-                        </div>
-                    </a>
-                    <div className={projectCSS.project_content}>
-                        <h4>Clothify<span>Simple app design , E-commerce , Cloth website , Multiple page design , Reactjs , Javascript </span>
-                        </h4>
-                        <a href="https://clothify-kappa.vercel.app/" ><i className='ri-arrow-right-line'></i></a>
-                    </div>
-                </div>
-                <div className={projectCSS.project_card}>
-                    <a href="https://monu-ecommerce.vercel.app/" >
-                        <div className={projectCSS.projectImg}>
-                            <img src={projectimg8} alt="Project_img" loading='lazy' />
-                        </div>
-                    </a>
-                    <div className={projectCSS.project_content}>
-                        <h4>Tech Haven<span>Simple app design , E-commerce , mordern website , Multiple page design , Reactjs , Javascript, Redux js , Redux-toolkit </span>
-                        </h4>
-                        <a href="https://monu-ecommerce.vercel.app/" ><i className='ri-arrow-right-line'></i></a>
-                    </div>
-                </div>
-                <div className={projectCSS.project_card}>
-                    <a href="https://monu-tomar.github.io/rack-storage" >
-                        <div className={projectCSS.projectImg}>
-                            <img src={projectimg9} alt="Project_img" loading='lazy' />
-                        </div>
-                    </a>
-                    <div className={projectCSS.project_content}>
-                        <h4>Jasiva Rack Storage<span>Simple app design , mordern website , Rack Storage , Heavy Duty Racks, Light Duty Racks , Multiple page design , Javascript, CSS , HTML </span>
-                        </h4>
-                        <a href="https://monu-tomar.github.io/rack-storage" ><i className='ri-arrow-right-line'></i></a>
                     </div>
                 </div>
             </div>
