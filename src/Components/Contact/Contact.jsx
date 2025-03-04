@@ -68,7 +68,7 @@ const Contact = () => {
             </div>
             <div className={contactCSS.copyright}>
                 <img src={logo} alt="Logo image" loading="lazy" />
-                <h4>Monu Tomar © 2025</h4>
+                <h4>Monu Tomar &copy; {new Date().getFullYear()}</h4>
             </div>
         </div>
     );
