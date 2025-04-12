@@ -7,7 +7,7 @@ const Header = () => {
         <>
             <div className={headerCSS.header_wrapper} id='home'>
                 <small>Hello,👋 There </small>
-                <h2> I M
+                <h2> IʼM 
                     <span>
                         <ReactTyped
                             strings={[" Monu Tomar", " React Developer", " Frontend Developer"]}
